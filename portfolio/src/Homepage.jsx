@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
 
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <div><Navbar/></div>
   )
 }
 

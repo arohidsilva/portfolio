@@ -1,0 +1,16 @@
+.NVContact{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3rem;
+}
+
+.NVContactLogo{
+    margin: 5px 5px 5px 10px;
+}
+
+.NVContactText{
+    margin-right: 10px;
+    font-size: small;
+    font-weight: 600;
+}
