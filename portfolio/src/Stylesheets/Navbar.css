@@ -1,3 +1,14 @@
+.NVConatiner{
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 3;
+}
 .NVContact{
     padding: 10px;
     background-color: aliceblue;
