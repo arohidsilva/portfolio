@@ -1,0 +1,59 @@
+#secintro{
+    height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.INPicture{
+    position: absolute;
+    top: 0;
+    right: -35rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.INContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.INHello{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.INIntro{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.INName{
+    color: orange;
+}
+
+.INPara{
+    font-size: medium;
+    font-weight: 400;
+}
+.INHire{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3rem;
+}
+
+.INHireText{
+    margin-right: 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.INHireLogo{
+    margin: 3px 5px 5px 10px;
+}

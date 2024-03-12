@@ -5,15 +5,31 @@
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
+    max-width: 75rem;
     justify-content: space-between;
     position: sticky;
     z-index: 3;
 }
+
 .NVContact{
     padding: 10px;
     background-color: aliceblue;
     color: black;
     border-radius: 3rem;
+}
+
+.NVMenuItem{
+    color: white;
+    margin: 1rem;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.NVMenuItem:hover{
+    color: orange;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid orange;
+
 }
 
 .NVContactLogo{
