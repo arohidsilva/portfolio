@@ -1,8 +1,9 @@
 .NVConatiner{
+    background-color: rgb(30,30,30);
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
     padding-right: 2rem;
     display: flex;
     align-items: center;
@@ -10,6 +11,7 @@
     justify-content: space-between;
     position: sticky;
     z-index: 3;
+    top:0;
 }
 
 .NVLogo{
