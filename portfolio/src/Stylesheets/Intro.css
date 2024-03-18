@@ -67,21 +67,41 @@
         top:4rem;
     }
     .INIntro{
-        font-size: 10vw;
+        font-size: 7vw;
     }
-
     .INHello{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
+    .INPara{
+        font-size: 2vw;
+    }
+    .INHireText{
+        font-size: large;
+    } 
+    .INHireLogo{
+        font-size: large;
+    }
+}
 
+@media screen and (max-width:640px) {
+    .INPicture{
+        right : 0;
+        top:4rem;
+    }
+    .INIntro{
+        font-size: 9vw;
+    }
+    .INHello{
+        font-size: 4vw;
+    }
     .INPara{
         font-size: 3vw;
     }
     .INHireText{
-        font-size: larger;
+        font-size: medium;
     } 
     .INHireLogo{
-        font-size: larger;
+        font-size: medium;
     }
 }
 
@@ -90,15 +110,19 @@
         right: -3rem;
     }
     .INIntro{
-        font-size: 13vw;
+        font-size: 9vw;
     }
-
     .INHello{
-        font-size: 7.5vw;
+        font-size: 5vw;
     }
-
     .INPara{
-        font-size: 6vw;
+        font-size: 3vw;
+    }
+    .INHireText{
+        font-size: small;
+    } 
+    .INHireLogo{
+        font-size: small;
     }
 
 }

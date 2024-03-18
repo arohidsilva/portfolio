@@ -2,7 +2,7 @@
 import React from 'react';
 import '../Stylesheets/Navbar.css';
 import { BiSolidMessage } from "react-icons/bi";
-import {Link} from "react-scroll";
+// import {Link} from 'react-scroll';
 import Img from '../assets/Logo2.png';
 
 function Navbar() {
@@ -10,10 +10,10 @@ function Navbar() {
     <nav className='NVConatiner'>
         <img className='NVLogo' src={Img} alt='Logo'/>
         <div className='NVMenu'>
-            <Link className='NVMenuItem'>Home</Link>
-            <Link className='NVMenuItem'>About</Link>
-            <Link className='NVMenuItem'>Portfolio</Link>
-            <Link className='NVMenuItem'>Clients</Link>
+            <a href='' className='NVMenuItem'>Home</a>
+            <a href='' className='NVMenuItem'>About</a>
+            <a href='' className='NVMenuItem'>Portfolio</a>
+            <a href='' className='NVMenuItem'>Clients</a>
         </div>
         <button className='NVContact d-flex'>
             <BiSolidMessage className='NVContactLogo'/>

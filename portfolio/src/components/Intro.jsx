@@ -12,11 +12,11 @@ function Intro() {
             <span className='INHello'>Hello,</span>
             <span className='INIntro'>I'm <span className='INName'>Arohi</span><br />Web Developer</span>
             <p className='INPara'>To secure a challenging position in a reputable <br/> organization to expand my knowledge, and skills.</p>
-            <Link>
+            <a href=''>
                 <button className='INHire d-flex'>
                     <PiBagSimpleFill className='INHireLogo'/><div className='INHireText'>Hire Me</div>
                 </button>
-            </Link>
+            </a>
         </div>
         <img className='INPicture'src={img1} alt='Picture'/>
     </section>

@@ -11,20 +11,20 @@
 }
 
 .SKTitle{
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-weight: 600;
-    padding-top: 3rem;
+    padding: 1rem;
 }
 
 .SKPara{
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.9rem;
     max-width: 50rem;
-    padding:2rem;
+    padding: 0.5rem 2rem;
 }
 
 .SKBars{
-    margin: 1.5rem;
+    margin: 1rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
@@ -39,11 +39,46 @@
 
 .SKImg{
     object-fit: cover;
-    height: 3.5rem;
-    width: 3.5rem;
-    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+    margin: 1.5rem;
 }
 
 .SKText{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
+
+.SKText>p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width:780px) {
+    .SKPara{
+        font-size: 0.75rem;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .SKTitle{
+        padding-bottom: 0;
+    }
+    .SKPara{
+        font-size: 0.7rem;
+    }
+    .SKBars{
+        margin-top: 0;
+    }
+    .SKImg{
+        margin-top: 2rem;
+    }
+    .SKText>p{
+        font-size: 0.75rem;
+        font-weight: 300;
+    }
+}
+
+
+
+
