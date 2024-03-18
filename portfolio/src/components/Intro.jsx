@@ -3,7 +3,7 @@ import React from 'react';
 import '../Stylesheets/Intro.css';
 import { Link } from 'react-scroll';
 import { PiBagSimpleFill } from "react-icons/pi";
-import img1 from '../assets/Picture1.png';
+import img1 from '../assets/Picture.png';
 
 function Intro() {
   return (

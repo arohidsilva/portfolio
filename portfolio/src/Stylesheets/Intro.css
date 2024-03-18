@@ -10,10 +10,10 @@
 .INPicture{
     position: absolute;
     top: 0;
-    right: -35rem;
+    right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 80vh;
 }
 
 .INContent{
@@ -46,6 +46,7 @@
 .INHire{
     padding: 10px;
     background-color: aliceblue;
+    border-color: aliceblue;
     color: black;
     border-radius: 3rem;
 }
@@ -57,14 +58,13 @@
 }
 
 .INHireLogo{
-    margin: 3px 5px 0px 10px;
+    margin: 2px 5px 0px 10px;
 }
 
 @media screen and (max-width:840px) {
     .INPicture{
-        right : -50rem;
+        right : 0;
     }
-
     .INIntro{
         font-size: 10vw;
     }
@@ -72,4 +72,32 @@
     .INHello{
         font-size: 4.5vw;
     }
+
+    .INPara{
+        font-size: 3vw;
+    }
+    .INHireText{
+        font-size: larger;
+    } 
+    .INHireLogo{
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width:480px){
+    .INPicture{
+        right: -3rem;
+    }
+    .INIntro{
+        font-size: 13vw;
+    }
+
+    .INHello{
+        font-size: 7.5vw;
+    }
+
+    .INPara{
+        font-size: 6vw;
+    }
+
 }

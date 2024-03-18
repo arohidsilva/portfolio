@@ -2,7 +2,8 @@
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
     display: flex;
     align-items: center;
     max-width: 75rem;
@@ -11,9 +12,14 @@
     z-index: 3;
 }
 
+.NVLogo{
+    height: 70px;
+}
+
 .NVContact{
     padding: 10px;
     background-color: aliceblue;
+    border-color: aliceblue;
     color: black;
     border-radius: 3rem;
 }
@@ -33,7 +39,7 @@
 }
 
 .NVContactLogo{
-    margin: 5px 5px 0px 10px;
+    margin: 2px 5px 0px 10px;
 }
 
 .NVContactText{
