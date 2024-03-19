@@ -16,66 +16,57 @@
     padding: 1rem;
 }
 
-.SKPara{
-    font-weight: 300;
-    font-size: 0.9rem;
-    max-width: 50rem;
-    padding: 0.5rem 2rem;
+.SKSkills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.SKCategory{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.SKSkill{
+    padding: 1rem 0.5rem;
+    background-color: rgb(40,40,40);
+    margin: 1rem;
 }
 
 .SKBars{
     margin: 1rem;
-    width: 100vw;
     max-width: 80%;
-    text-align: left;
 }
 
 .SKBar{
     background: rgb(50, 50, 50);
     display: flex;
-    margin: 1rem;
+    margin: 1.5rem;
+    width: 18rem;
     border-radius: 0.5rem;
 }
 
 .SKImg{
     object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
 }
 
 .SKText{
     margin-top: 1rem;
 }
 
-.SKText>p{
-    font-size: 0.9rem;
-    font-weight: 300;
-}
-
-@media screen and (max-width:780px) {
-    .SKPara{
-        font-size: 0.75rem;
-        padding-bottom: 0;
-    }
-}
 
 @media screen and (max-width:480px) {
     .SKTitle{
         padding-bottom: 0;
-    }
-    .SKPara{
-        font-size: 0.7rem;
     }
     .SKBars{
         margin-top: 0;
     }
     .SKImg{
         margin-top: 2rem;
-    }
-    .SKText>p{
-        font-size: 0.75rem;
-        font-weight: 300;
     }
 }
 
