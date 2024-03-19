@@ -1,4 +1,23 @@
+
 #bgdetails{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.BGTitle{
+    font-size: 2.75rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.BGContainer{
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -13,7 +32,7 @@
 .BGCard{
   margin:1rem; 
   width: 23.5rem;
-  height: 12rem;
+  padding-top: 0.5rem;
 }
 
 .BGHeaders{
@@ -23,12 +42,8 @@
 
 .BGHeader{
     font-size: 1rem;
-    margin: 1rem 0 0.3rem 0;
     font-weight: 700;
-}
-
-.BGHeader>span{
-    padding-left: 0.5rem;
+    margin-top: 1rem;
 }
 
 .BGSubtext{
@@ -36,10 +51,8 @@
     font-weight: 300;
 }
 
-.BGOrg{
-
-}
-
-.BGScore{
-
+.BGYear{
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-bottom: 0.3rem;
 }
