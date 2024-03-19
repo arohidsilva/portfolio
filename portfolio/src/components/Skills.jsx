@@ -8,7 +8,7 @@ import ImgCSS from '../assets/CSS.png'
 
 function Skills() {
   return (
-    <section id='secskills'>
+    <section id='skills'>
         <span className='SKTitle'>What I do</span>
         <span className='SKPara'>I am a skilled and passionate web developer with knowledge in creating responsive and user friendly web applications. I have strong understanding of design and keen eye on detail. I am proficient in React.js, JavaScript, HTML and CSS as well as Analytical skills such as Python, SQL and Tableau.</span>
         <div className='SKBars'>

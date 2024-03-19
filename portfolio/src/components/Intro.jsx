@@ -7,7 +7,7 @@ import img1 from '../assets/Picture.png';
 
 function Intro() {
   return (
-    <section id='secintro'>
+    <section id='intro'>
         <div className='INContent'>
             <span className='INHello'>Hello,</span>
             <span className='INIntro'>I'm <span className='INName'>Arohi</span><br />Web Developer</span>

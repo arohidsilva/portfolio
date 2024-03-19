@@ -1,0 +1,24 @@
+#works{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.WKTitle{
+    font-size: 2.75rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.WKPara{
+    font-weight: 300;
+    font-size: 0.9rem;
+    max-width: 50rem;
+    padding: 0.5rem 2rem;
+}
