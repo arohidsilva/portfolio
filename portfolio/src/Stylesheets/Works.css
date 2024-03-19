@@ -22,3 +22,60 @@
     max-width: 50rem;
     padding: 0.5rem 2rem;
 }
+
+.WKGroup{
+    margin-bottom: 1rem;
+    display: flex;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.WKImg{
+    margin: 1rem;
+    margin-bottom: 0.4rem;
+    height: 18rem;
+    width: 14rem;
+    border-radius: 0.5rem;
+}
+
+.WKItem>p{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.WKSeeMore{
+    margin: 0.5rem;
+    padding: 10px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color: black;
+    border-radius: 3rem;
+}
+
+.WKSeeMoreText{
+    margin: 0 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+@media screen and (max-width:780px) {
+    .WKPara{
+        font-size: 0.75rem;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .WKTitle{
+        padding-bottom: 0;
+    }
+    .WKPara{
+        font-size: 0.7rem;
+    }
+    .WKItem>p{
+        font-size: 0.75rem;
+        font-weight: 300;
+    }
+}

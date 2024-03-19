@@ -60,6 +60,9 @@
 .INHireLogo{
     margin: 2px 5px 0px 10px;
 }
+.INContent>a{
+    text-decoration: none;
+}
 
 @media screen and (max-width:840px) {
     .INPicture{
@@ -110,19 +113,19 @@
         right: -3rem;
     }
     .INIntro{
-        font-size: 9vw;
+        font-size: 10vw;
     }
     .INHello{
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .INPara{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .INHireText{
-        font-size: small;
+        font-size: medium;
     } 
     .INHireLogo{
-        font-size: small;
+        font-size: medium;
     }
 
 }
