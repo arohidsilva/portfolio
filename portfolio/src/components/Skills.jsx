@@ -1,10 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import '../Stylesheets/Skills.css';
-import ImgReact from '../assets/ReactLogo.png'
-import ImgJS from '../assets/JSLogo.png'
-import ImgHTML from '../assets/HTMLLogo.png'
-import ImgCSS from '../assets/CSS.png'
+import ImgReact from '../assets/ReactLogo.png';
+import ImgJS from '../assets/JSLogo.png';
+import ImgHTML from '../assets/HTMLLogo.png';
+import ImgCSS from '../assets/CSS.png';
+import ImgVSC from '../assets/VSCLogo.png';
+import ImgTableau from '../assets/TableauLogo.png';
+
 
 function Skills() {
   return (
@@ -17,25 +20,25 @@ function Skills() {
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgReact} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h4>React JS</h4>
+                            <span>React JS</span>
                         </div>
                     </div>
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgJS} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h4>JavaScript</h4>
+                            <span>JavaScript</span>
                         </div>
                     </div>
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgHTML} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h4>HTML</h4>
+                            <span>HTML</span>
                         </div>
                     </div>
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgCSS} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h4>CSS</h4>
+                            <span>CSS</span>
                         </div>
                     </div>
                 </div>
@@ -44,15 +47,15 @@ function Skills() {
                 <span className='SKCategory'>Tools</span>
                 <div className='SKBars'>
                     <div className='SKBar'>
-                        <img className='SKImg' src={ImgReact} alt='skilllogo'/>
+                        <img className='SKImg' src={ImgVSC} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h3>Visual Studio</h3>
+                            <span>Visual Studio</span>
                         </div>
                     </div>
                     <div className='SKBar'>
-                        <img className='SKImg' src={ImgJS} alt='skilllogo'/>
+                        <img className='SKImg' src={ImgTableau} alt='skilllogo'/>
                         <div className='SKText'>
-                            <h3>Tableau</h3>
+                            <span>Tableau</span>
                         </div>
                     </div>
                 </div>
