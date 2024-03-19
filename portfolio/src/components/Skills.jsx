@@ -7,6 +7,7 @@ import ImgHTML from '../assets/HTMLLogo.png';
 import ImgCSS from '../assets/CSS.png';
 import ImgVSC from '../assets/VSCLogo.png';
 import ImgTableau from '../assets/TableauLogo.png';
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 
 function Skills() {
@@ -49,7 +50,7 @@ function Skills() {
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgVSC} alt='skilllogo'/>
                         <div className='SKText'>
-                            <span>Visual Studio</span>
+                            <span>VS Code</span>
                         </div>
                     </div>
                     <div className='SKBar'>
@@ -60,6 +61,18 @@ function Skills() {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className='SKLinks'>
+            <a href=''>
+                <div className='SKLink'>
+                    Projects <FaExternalLinkSquareAlt className='SKLinkLogo'/>
+                </div>
+            </a>
+            <a href=''>
+                <div className='SKLink'>
+                    Certifications <FaExternalLinkSquareAlt className='SKLinkLogo'/>
+                </div>
+            </a>
         </div>
     </section>
   )

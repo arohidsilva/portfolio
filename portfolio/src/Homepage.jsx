@@ -3,7 +3,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Skills from './components/Skills';
-import Works from './components/Works';
+// import Works from './components/Works';
+import Bgdetails from './components/Bgdetails';
 
 function Homepage() {
   return (
@@ -11,7 +12,8 @@ function Homepage() {
       <Navbar />
       <Intro />
       <Skills />
-      <Works />
+      {/* <Works /> */}
+      <Bgdetails />
     </div>
   )
 }

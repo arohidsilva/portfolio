@@ -1,0 +1,44 @@
+#bgdetails{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+.BGCard{
+  margin:1rem; 
+  width: 23.5rem;
+  height: 12rem;
+}
+
+.BGHeaders{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.BGHeader{
+    font-size: 1rem;
+    margin: 1rem 0 0.3rem 0;
+    font-weight: 700;
+}
+
+.BGHeader>span{
+    padding-left: 0.5rem;
+}
+
+.BGSubtext{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.BGOrg{
+
+}
+
+.BGScore{
+
+}
