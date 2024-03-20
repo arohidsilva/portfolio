@@ -14,7 +14,7 @@ function Navbar() {
         <div className='NVMenu'>
             <a href='/' className='NVMenuItem'>Home</a>
             <a href='/projects/' className='NVMenuItem'>Projects</a>
-            <a href='' className='NVMenuItem'>Certifications</a>
+            <a href='/certifications/' className='NVMenuItem'>Certifications</a>
             <a href='https://github.com/arohidsilva' className='NVMenuItem'>GitHub</a>
         </div>
         <TiThMenu className='NVBurger' onClick={()=>setMenu(!menu)}/>
@@ -23,7 +23,7 @@ function Navbar() {
           <section className='NVAltMenu'>
             <a href='/' className='NVAltItem'>Home</a>
             <a href='/projects/' className='NVAltItem'>Projects</a>
-            <a href='' className='NVAltItem'>Certifications</a>
+            <a href='/certifications/' className='NVAltItem'>Certifications</a>
             <a href='https://github.com/arohidsilva' className='NVAltItem'>GitHub</a>
           </section>
         </>:

@@ -23,42 +23,47 @@
 }
 
 .SKCategory{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .SKSkill{
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 0.5rem;
     background-color: rgb(40,40,40);
     margin: 1rem;
+    border-radius: 0.5rem;
+    width: 33rem;
 }
 
 .SKBars{
-    margin: 1rem;
     max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .SKBar{
     background: rgb(50, 50, 50);
     display: flex;
-    margin: 0.5rem;
-    width: 12rem;
+    margin: 1rem;
+    padding-right: 1rem;
+    width: fit-content;
     border-radius: 0.5rem;
 }
 
-.SKBar>span{
-    font-weight: 200;
+.SKText>span{
+    font-size: larger;
+    font-weight: 500;
 }
 
 .SKImg{
     object-fit: cover;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
     margin: 0.9rem;
 }
 
 .SKText{
-    margin-top: 1rem;
+    margin-top: 0.8rem;
 }
 
 .SKLinks{
@@ -72,10 +77,10 @@
     background-color: rgb(60, 60, 60);
     color: white;
     border-radius: 0.5rem;
-    font-size: l1rem;
+    font-size: larger;
     font-weight: 500;
     margin: 1rem;
-    width: 11rem;
+    width: 13rem;
 }
 
 .SKLinkLogo{
@@ -87,14 +92,24 @@
     text-decoration: none;
 }
 
-
+@media screen and (max-width:590px) {
+    .SKSkill{
+        width: 25rem;
+    }
+}
 
 @media screen and (max-width:480px) {
     .SKTitle{
         padding-bottom: 0;
     }
+    .SKSkill{
+        width: 20rem;
+    }
     .SKBars{
-        margin-top: 0;
+        margin-top: 1rem;
+    }
+    .SKBar{
+        margin: 0.5rem;
     }
 }
 

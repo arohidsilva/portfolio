@@ -29,33 +29,67 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    text-align: left;
+    align-content: center;
     background-color: rgb(40,40,40);
-    padding: 1rem;
-    margin: 1rem;
+    padding: 3rem 1rem;
+    margin: 0.5rem;
     width:30rem;
     border-radius: 0.5rem;
+    position: relative;
 }
 
 .CRItem>p{
     font-size: 0.95rem;
     font-weight: 400;
-    width: 28rem;
 }
 
-.CRCert{
+.CRSponser{
     display: flex;
-    text-align: left;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+
+.CRImg{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.CRTechLogo{
+    height: 10rem;
+    width: 10rem;
+    opacity: 0.1;
+    right: 2rem;
+    bottom: 0.5rem;
+    position: absolute;
 }
 
 
-@media screen and (max-width:480px) {
+
+
+@media screen and (max-width:520px) {
     .CRTitle{
         padding-bottom: 0;
     }
 
+    .CRItem{
+        width: 22.5rem;
+    }
+
     .CRItem>p{
-        width: 21rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .CRItem{
+        width: 20rem;
+    }
+
+    .CRItem>p{
+        font-size: 1rem;
         font-weight: 400;
     }
 }

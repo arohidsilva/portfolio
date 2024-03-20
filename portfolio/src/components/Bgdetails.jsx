@@ -1,6 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import '../Stylesheets/Bgdetails.css';
+import imgedu from '../assets/EduLogo.png';
+import imgintern from '../assets/InternLogo.png';
+import imgexp from '../assets/ExpLogo.png';
 
 
 function Bgdetails() {
@@ -34,19 +37,22 @@ function Bgdetails() {
                 </div>
                 <div className='BGSubtext'>Little Flower High School, Siddapur</div>
                 <div className='BGSubtext fw-bolder'>Percentage: 90.08%</div> */}
+                <img className='BGImg' src={imgedu} alt='Logo'/>
             </div>
             <div className='BGCard'>
                 <div className='BGHeaders'>Internship</div>
                 <div className='BGHeader'>Tata Consultancy Services</div>
                 <div className='BGYear'>March 2022 - June 2022</div>
-                <div className='BGSubtext'> Worked with various AWS services like S3 Bucket,<br/>Rekognition, DynamoDB, Lambda and RDS</div>
+                <div className='BGSubtext'> Worked with various AWS services like S3 Bucket, Rekognition, DynamoDB, Lambda and RDS</div>
+                <img className='BGImg' src={imgintern} alt='Logo'/>
             </div>
             <div className='BGCard'>
                 <div className='BGHeaders'>Experience</div>
                 <div className='BGHeader'>Tata Consultancy Services</div>
                 <div className='BGYear'>August 2022 - Present</div>
                 <div className='BGSubtext fw-bolder pb-2'> Assistant System Engineer</div>
-                <div className='BGSubtext'> Study the business component and its existing Varicent<br/>solution process to understand current pain points from<br/>business and identify process improvements opportunities.</div>
+                <div className='BGSubtext'> Study the business component and its existing Varicent solution process to understand current pain points from business and identify process improvements opportunities.</div>
+                <img className='BGImg' src={imgexp} alt='Logo'/>
             </div>
         </div> 
     </section>

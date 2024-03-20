@@ -11,7 +11,7 @@ function Intro() {
     <section id='intro'>
         <div className='INContent'>
             <span className='INHello'>Hello,</span>
-            <span className='INIntro'>I'm <span className='INName'>Arohi</span><br />Web Developer</span>
+            <span className='INIntro'>I&#39;m <span className='INName'>Arohi</span><br />Web Developer</span>
             <p className='INPara'>To secure a challenging position in a reputable <br/> organization to expand my knowledge, and skills.</p>
             <div className='INVias d-flex'>
               <a href='mailto:arohidsilva311@gmail.com'>

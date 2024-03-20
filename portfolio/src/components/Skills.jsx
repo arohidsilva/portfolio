@@ -7,6 +7,8 @@ import ImgHTML from '../assets/HTMLLogo.png';
 import ImgCSS from '../assets/CSS.png';
 import ImgVSC from '../assets/VSCLogo.png';
 import ImgTableau from '../assets/TableauLogo.png';
+import ImgPython from '../assets/Python.png';
+import ImgSql from '../assets/SQL.png';
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 
@@ -42,6 +44,18 @@ function Skills() {
                             <span>CSS</span>
                         </div>
                     </div>
+                    <div className='SKBar'>
+                        <img className='SKImg' src={ImgPython} alt='skilllogo'/>
+                        <div className='SKText'>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div className='SKBar'>
+                        <img className='SKImg' src={ImgSql} alt='skilllogo'/>
+                        <div className='SKText'>
+                            <span>SQL</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='SKSkill'>
@@ -50,7 +64,7 @@ function Skills() {
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgVSC} alt='skilllogo'/>
                         <div className='SKText'>
-                            <span>VS Code</span>
+                            <span>VSCode</span>
                         </div>
                     </div>
                     <div className='SKBar'>
@@ -68,7 +82,7 @@ function Skills() {
                     Projects <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
             </a>
-            <a href=''>
+            <a href='/certifications/'>
                 <div className='SKLink'>
                     Certifications <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
