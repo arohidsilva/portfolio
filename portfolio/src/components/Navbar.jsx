@@ -11,9 +11,9 @@ function Navbar() {
         <img className='NVLogo' src={Img} alt='Logo'/>
         <div className='NVMenu'>
             <a href='' className='NVMenuItem'>Home</a>
-            <a href='' className='NVMenuItem'>About</a>
-            <a href='' className='NVMenuItem'>Portfolio</a>
-            <a href='' className='NVMenuItem'>Clients</a>
+            <a href='' className='NVMenuItem'>Projects</a>
+            <a href='' className='NVMenuItem'>Certifications</a>
+            <a href='https://github.com/arohidsilva' className='NVMenuItem'>Contact</a>
         </div>
         <button className='NVContact d-flex'>
             <BiSolidMessage className='NVContactLogo'/>

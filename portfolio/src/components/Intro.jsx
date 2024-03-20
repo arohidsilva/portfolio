@@ -16,17 +16,17 @@ function Intro() {
             <span className='INIntro'>I'm <span className='INName'>Arohi</span><br />Web Developer</span>
             <p className='INPara'>To secure a challenging position in a reputable <br/> organization to expand my knowledge, and skills.</p>
             <div className='INVias d-flex'>
-              <a href=''>
+              <a href='mailto:arohidsilva311@gmail.com'>
                 <button className='INVia'>
-                  <img className='INViaLogo' src={imgmail} alt='gmaillogo'></img>
+                  <img className='INViaLogo1' src={imgmail} alt='gmaillogo'></img>
                 </button>
               </a>
-              <a href=''>
+              <a href='https://www.linkedin.com/in/arohi-dsilva-6a7480221/'>
                 <button className='INVia'>
                   <img className='INViaLogo' src={imglinkedin} alt='gmaillogo'></img>
                 </button>
               </a>
-              <a href=''>
+              <a href='https://github.com/arohidsilva'>
                 <button className='INVia'>
                   <img className='INViaLogo' src={imggithub} alt='gmaillogo'></img>
                 </button>
