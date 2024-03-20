@@ -3,10 +3,12 @@ import Homepage from './Homepage';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const routes = [{
+const routes = [
+  {
   path : '/' , 
   element : <Homepage />
-}];
+  }
+];
 
 const router = createBrowserRouter(routes);
 

@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import '../Stylesheets/Intro.css';
-import { Link } from 'react-scroll';
-import { PiBagSimpleFill } from "react-icons/pi";
 import imgmail from '../assets/Gmail.png';
 import imglinkedin from '../assets/Linkedin.png';
 import imggithub from '../assets/Github.png';
