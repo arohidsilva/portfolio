@@ -80,7 +80,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:525px) {
     .NVBurger{
         display: block;
     }

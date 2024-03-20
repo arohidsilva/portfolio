@@ -4,6 +4,7 @@ import '../Stylesheets/Works.css';
 import work1 from '../assets/port1.jpg';
 import work2 from '../assets/port2.jpg';
 import work3 from '../assets/port7.jpg';
+import Navbar from './Navbar';
 
 function Works() {
   return (

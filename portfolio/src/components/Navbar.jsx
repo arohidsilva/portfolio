@@ -13,21 +13,16 @@ function Navbar() {
         <img className='NVLogo' src={Img} alt='Logo'/>
         <div className='NVMenu'>
             <a href='#top' className='NVMenuItem'>Home</a>
-            <a href='' className='NVMenuItem'>Projects</a>
+            <a href='/projects/' className='NVMenuItem'>Projects</a>
             <a href='' className='NVMenuItem'>Certifications</a>
-            <a href='https://github.com/arohidsilva' className='NVMenuItem'>Contact</a>
+            <a href='https://github.com/arohidsilva' className='NVMenuItem'>GitHub</a>
         </div>
-        <div className='NVContact'>
-            <BiSolidMessage className='NVContactLogo'/>
-            <div className='NVContactText'>Contact Me</div>
-        </div>
-
         <TiThMenu className='NVBurger' onClick={()=>setMenu(!menu)}/>
         {menu?
         <>
           <section className='NVAltMenu'>
             <a href='#top' className='NVAltItem'>Home</a>
-            <a href='' className='NVAltItem'>Projects</a>
+            <a href='/projects/' className='NVAltItem'>Projects</a>
             <a href='' className='NVAltItem'>Certifications</a>
             <a href='https://github.com/arohidsilva' className='NVAltItem'>GitHub</a>
           </section>
