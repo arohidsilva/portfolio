@@ -63,7 +63,7 @@ function Skills() {
             </div>
         </div>
         <div className='SKLinks'>
-            <a href=''>
+            <a href='/projects/'>
                 <div className='SKLink'>
                     Projects <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>

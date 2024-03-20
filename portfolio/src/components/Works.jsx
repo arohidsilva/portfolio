@@ -1,37 +1,43 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import '../Stylesheets/Works.css';
-import work1 from '../assets/port1.jpg';
-import work2 from '../assets/port2.jpg';
-import work3 from '../assets/port7.jpg';
+import imgcass from '../assets/CASS.jpg';
+import imgrec from '../assets/ImgRec.jpg';
+import imgpoke from '../assets/Poke.jpg';
+import imgsplitit from '../assets/Splitit.jpg';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Works() {
   return (
-    <section id='works'>
-        <span className='WKTitle'>My portfolio</span>
-        <span className='WKPara'>I take my pride in paying attention to the smallest details and making sure that my work is perfect. I am excited ti bring my skills and experiances to help business achive their goals and create a strong online presence.</span>
+    <div><Navbar />
+    <div id='works'>
+        <span className='WKTitle'>Projects</span>
         <div className='WKGroup'>
           <div className='WKItem'>
-            <img className='WKImg' src={work1} alt='projectlogo'/>
-            <h3>Project1</h3>
-            <p>Technologies used: React JS,<br/>JavaScript, HTML/CSS.</p>
+            <img className='WKImg' src={imgcass} alt='projectlogo'/>
+            <h3>CA Management System</h3>
+            <p>A web application with CA Management system using  Visual studio, C#, HTML/CSS, JavaScript and MySQL 5.0.</p>
           </div>
           <div className='WKItem'>
-            <img className='WKImg' src={work2} alt='projectlogo'/>
-            <h3>Project2</h3>
-            <p>Technologies used: React JS,<br/>JavaScript, HTML/CSS.</p>
+            <img className='WKImg' src={imgrec} alt='projectlogo'/>
+            <h3>Image-Infinity</h3>
+            <p>Image Recognition and Identification System on AWS using S3 Bucket, Rekognition, DynamoDB, Lambda and RDS.</p>
           </div>
           <div className='WKItem'>
-            <img className='WKImg' src={work3} alt='projectlogo'/>
-            <h3>Project3</h3>
-            <p>Technologies used: React JS,<br/>JavaScript, HTML/CSS.</p>
+            <img className='WKImg' src={imgpoke} alt='projectlogo'/>
+            <h3>Pokédex</h3>
+            <p>A responsive webpage with Pokémon data using React JS.</p>
+          </div>
+          <div className='WKItem'>
+            <img className='WKImg' src={imgsplitit} alt='projectlogo'/>
+            <h3>Split-it</h3>
+            <p>A responsive webpage to track expenses using React JS and Firebase.</p>
           </div>
         </div>
-        <button className='WKSeeMore'>
-            <div className='WKSeeMoreText'>See more</div>
-        </button>
-    </section>
+    </div>
+    <Footer/ >
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 .NVConatiner{
     background-color: rgb(30,30,30);
-    height: 5rem;
+    height: 4rem;
     width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -36,7 +36,7 @@
 
 .NVMenuItem:hover{
     color: orange;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     border-bottom: 3px solid orange;
 
 }

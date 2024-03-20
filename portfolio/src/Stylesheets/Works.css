@@ -1,7 +1,7 @@
 #works{
     overflow: hidden;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,18 +13,11 @@
 .WKTitle{
     font-size: 2.75rem;
     font-weight: 600;
-    padding: 1rem;
-}
-
-.WKPara{
-    font-weight: 300;
-    font-size: 0.9rem;
-    max-width: 50rem;
-    padding: 0.5rem 2rem;
+    margin: 1rem;
 }
 
 .WKGroup{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     max-width: 65rem;
     flex-wrap: wrap;
@@ -35,47 +28,39 @@
 .WKImg{
     margin: 1rem;
     margin-bottom: 0.4rem;
-    height: 18rem;
-    width: 14rem;
+    height: 20rem;
+    width: 28rem;
     border-radius: 0.5rem;
 }
 
+.WKItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40,40,40);
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
 .WKItem>p{
-    font-size: 0.8rem;
-    font-weight: 300;
+    font-size: 0.95rem;
+    font-weight: 400;
+    width: 28rem;
 }
 
-.WKSeeMore{
-    margin: 0.5rem;
-    padding: 10px;
-    background-color: aliceblue;
-    border-color: aliceblue;
-    color: black;
-    border-radius: 3rem;
-}
-
-.WKSeeMoreText{
-    margin: 0 10px;
-    font-size: small;
-    font-weight: 600;
-}
-
-@media screen and (max-width:780px) {
-    .WKPara{
-        font-size: 0.75rem;
-        padding-bottom: 0;
-    }
-}
 
 @media screen and (max-width:480px) {
     .WKTitle{
         padding-bottom: 0;
     }
-    .WKPara{
-        font-size: 0.7rem;
-    }
+
     .WKItem>p{
-        font-size: 0.75rem;
-        font-weight: 300;
+        width: 21rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .WKImg{
+        width: 22rem;
+        height: 13rem;
     }
 }

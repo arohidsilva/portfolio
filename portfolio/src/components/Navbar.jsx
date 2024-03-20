@@ -12,7 +12,7 @@ function Navbar() {
     <nav className='NVConatiner'>
         <img className='NVLogo' src={Img} alt='Logo'/>
         <div className='NVMenu'>
-            <a href='#top' className='NVMenuItem'>Home</a>
+            <a href='/' className='NVMenuItem'>Home</a>
             <a href='/projects/' className='NVMenuItem'>Projects</a>
             <a href='' className='NVMenuItem'>Certifications</a>
             <a href='https://github.com/arohidsilva' className='NVMenuItem'>GitHub</a>
@@ -21,7 +21,7 @@ function Navbar() {
         {menu?
         <>
           <section className='NVAltMenu'>
-            <a href='#top' className='NVAltItem'>Home</a>
+            <a href='/' className='NVAltItem'>Home</a>
             <a href='/projects/' className='NVAltItem'>Projects</a>
             <a href='' className='NVAltItem'>Certifications</a>
             <a href='https://github.com/arohidsilva' className='NVAltItem'>GitHub</a>
