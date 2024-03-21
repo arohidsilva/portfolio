@@ -12,13 +12,19 @@ function Intro() {
     <div id='intro' className='row'>      
         <div className='INContent col-12 col-md-6 '>
             <div className=''>
-            <span className='INHello'>Hello,</span>
-            <span className='INIntro'>I&#39;m  &nbsp;<span className='INName'>
+            <span className='INHello'>Hello,&nbsp;</span>
+            <span className='INHello'>I&#39;m  <span className='INName'>
             <Typewriter 
                 onInit={(typewriter)=>{
                   typewriter.typeString(" Ar")
                   .pauseFor(100)
                   .typeString("ohi")
+                  .pauseFor(200)
+                  .typeString(" D'")
+                  .pauseFor(100)
+                  .typeString("si")
+                  .pauseFor(100)
+                  .typeString("lva")
                   .pauseFor(200)
                   .typeString("!")
                   .start()
