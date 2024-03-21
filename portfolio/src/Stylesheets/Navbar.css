@@ -15,7 +15,8 @@
 }
 
 .NVLogo{
-    height: 3.5rem;
+    height: 3rem;
+    width: 4rem;
 }
 
 .NVContact{
@@ -54,7 +55,7 @@
 .NVBurger{
     display: none;
     color: orange;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .NVAltMenu{

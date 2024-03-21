@@ -64,3 +64,22 @@
         height: 13rem;
     }
 }
+
+@media screen and (max-width:480px) {
+    .WKTitle{
+        font-size: 2rem;
+    }
+    .WKItem>p{
+        width: 16.5rem;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .WKItem{
+        margin: 0.5rem;
+    }
+
+    .WKImg{
+        width: 16.5rem;
+        height: 12rem;
+    }
+}

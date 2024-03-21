@@ -93,3 +93,20 @@
         font-weight: 400;
     }
 }
+
+@media screen and (max-width:345px) {
+    
+    .CRTitle{
+        font-size: 2rem;
+    }
+
+    .CRItem{
+        width: 17rem;
+        margin: 0.25rem;
+    }
+
+    .CRItem>p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

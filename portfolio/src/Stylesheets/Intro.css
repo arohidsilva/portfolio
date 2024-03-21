@@ -36,14 +36,16 @@
     font-weight: 500;
 }
 .INIntro{
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
     /* background-color: rgba(41, 41, 41, 0.65); */
 }
 
 .INName{
+    font-size: 3rem;
+    font-weight: 700;
     color: orange;
 }
 
@@ -76,19 +78,31 @@
     text-decoration: none;
 }
 
+@media screen and (max-width:1050px) {
+    .INIntro{
+        font-size: 1.7rem;
+    }
+    .INName{
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width:840px) {
     .INPicture{
         right : 0;
         top:4rem;
     }
+    .INName{
+        font-size: 2.5rem;
+    }
     .INIntro{
-        font-size: 7vw;
+        font-size: 2rem;
     }
     .INHello{
         font-size: 3.5vw;
     }
     .INPara{
-        font-size: 2vw;
+        font-size: 1rem;
     }
     #intro{
         padding: 0 4rem !important;
@@ -101,7 +115,10 @@
         top:4rem;
     }
     .INIntro{
-        font-size: 9vw;
+        font-size: 2.2rem;
+    }
+    .INName{
+        font-size: 2.7rem;
     }
     .INHello{
         font-size: 4vw;
@@ -119,13 +136,16 @@
         right: 0rem;
     }
     .INIntro{
-        font-size: 10vw;
+        font-size: 2rem;
+    }
+    .INName{
+        font-size: 2.5rem;
     }
     .INHello{
-        font-size: 6vw;
+        font-size: 1.7rem;
     }
     .INPara{
-        font-size: 3.5vw;
+        font-size: 1rem;
     }
     #intro{
         padding: 0 2rem !important;

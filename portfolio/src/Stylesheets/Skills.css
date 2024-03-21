@@ -114,6 +114,29 @@
     }
 }
 
+@media screen and (max-width:340px) {
+    .SKTitle{
+        font-size: 2.5rem;
+    }
+    .SKCategory{
+        font-size: 1.5rem;
+    }
+    .SKSkill{
+        width: 16rem;
+        font-size: 0.9rem;
+    }
+    .SKImg{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .SKBars{
+        margin-top: 0.5rem;
+    }
+    .SKBar{
+        margin: 0.5rem;
+    }
+}
+
 
 
 

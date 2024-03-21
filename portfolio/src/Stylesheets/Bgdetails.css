@@ -71,3 +71,9 @@
     bottom: 0.5rem;
     right: 0.5rem;
 }
+
+@media screen and (max-width:360px) {
+    .BGTitle{
+        font-size: 2.2rem;
+    }
+}
