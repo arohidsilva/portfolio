@@ -5,6 +5,9 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    background-color: #00000055;
+    padding: 0 10rem;
+    border-radius: 0.5rem;
 }
 
 .INPicture{
@@ -14,6 +17,8 @@
     z-index: -1;
     object-fit: cover;
     height: 80vh;
+    opacity: 0.5;
+    
 }
 
 .INContent{
@@ -23,6 +28,7 @@
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
 .INHello{
@@ -32,6 +38,9 @@
 .INIntro{
     font-size: 3rem;
     font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(41, 41, 41, 0.65); */
 }
 
 .INName{
@@ -81,6 +90,9 @@
     .INPara{
         font-size: 2vw;
     }
+    #intro{
+        padding: 0 4rem !important;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -97,11 +109,14 @@
     .INPara{
         font-size: 3vw;
     }
+    #intro{
+        padding: 0 3rem !important;
+    }
 }
 
 @media screen and (max-width:480px){
     .INPicture{
-        right: -3rem;
+        right: 0rem;
     }
     .INIntro{
         font-size: 10vw;
@@ -112,5 +127,11 @@
     .INPara{
         font-size: 3.5vw;
     }
+    #intro{
+        padding: 0 2rem !important;
+    }
+}
 
+.typewritercss{
+    background-color: rgba(41, 41, 41, 0.65);
 }

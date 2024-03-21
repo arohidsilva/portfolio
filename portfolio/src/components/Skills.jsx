@@ -9,6 +9,8 @@ import ImgVSC from '../assets/VSCLogo.png';
 import ImgTableau from '../assets/TableauLogo.png';
 import ImgPython from '../assets/Python.png';
 import ImgSql from '../assets/SQL.png';
+import ImgBootstrap from '../assets/Bootstrap5.jpg';
+import ImgGithub from '../assets/Github.png';
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 
@@ -25,7 +27,13 @@ function Skills() {
                         <div className='SKText'>
                             <span>React JS</span>
                         </div>
-                    </div>
+                    </div>                    
+                    <div className='SKBar'>
+                        <img className='SKImg' src={ImgHTML} alt='skilllogo'/>
+                        <div className='SKText'>
+                            <span>HTML</span>
+                        </div>
+                    </div>                    
                     <div className='SKBar'>
                         <img className='SKImg' src={ImgJS} alt='skilllogo'/>
                         <div className='SKText'>
@@ -33,15 +41,15 @@ function Skills() {
                         </div>
                     </div>
                     <div className='SKBar'>
-                        <img className='SKImg' src={ImgHTML} alt='skilllogo'/>
-                        <div className='SKText'>
-                            <span>HTML</span>
-                        </div>
-                    </div>
-                    <div className='SKBar'>
                         <img className='SKImg' src={ImgCSS} alt='skilllogo'/>
                         <div className='SKText'>
                             <span>CSS</span>
+                        </div>
+                    </div>
+                    <div className='SKBar'>
+                        <img className='SKImg' src={ImgBootstrap} alt='skilllogo'/>
+                        <div className='SKText'>
+                            <span>Bootstrap</span>
                         </div>
                     </div>
                     <div className='SKBar'>
@@ -73,16 +81,22 @@ function Skills() {
                             <span>Tableau</span>
                         </div>
                     </div>
+                    <div className='SKBar'>
+                        <img className='SKImg' src={ImgGithub} alt='skilllogo'/>
+                        <div className='SKText'>
+                            <span>Git</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div className='SKLinks'>
-            <a href='/projects/'>
+        <div className='SKLinks row container'>
+            <a href='/projects/' className='col-12 col-md-6 '>
                 <div className='SKLink'>
                     Projects <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
             </a>
-            <a href='/certifications/'>
+            <a href='/certifications/' className='col-12 col-md-6'>
                 <div className='SKLink'>
                     Certifications <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
