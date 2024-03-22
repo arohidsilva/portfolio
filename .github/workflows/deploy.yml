@@ -29,8 +29,8 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
         with:
-          name: dir
-          path: ./portfolio
+          working-directory: portfolio
+          
 
       - name: Build project
         run: npm run build
