@@ -5,7 +5,7 @@ import '../Stylesheets/Footer.css';
 function Footer() {
   return (
     <section id='footer'>
-        Designed by &nbsp; <b>arohidsilva</b> 
+        &#169; 2024 &nbsp; <b>arohidsilva</b> &nbsp; | &nbsp; <b>portfolio</b>
     </section>
   )
 }

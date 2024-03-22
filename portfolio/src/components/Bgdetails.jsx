@@ -44,6 +44,9 @@ function Bgdetails() {
                 <div className='BGHeader'>Tata Consultancy Services</div>
                 <div className='BGYear'>March 2022 - June 2022</div>
                 <div className='BGSubtext'> Worked with various AWS services like S3 Bucket, Rekognition, DynamoDB, Lambda and RDS</div>
+                <div className='BGHeader'>Accolade Tech Solutions</div>
+                <div className='BGYear'>November 2019 - March 2020</div>
+                <div className='BGSubtext'> Worked on a web application using Visual studio, C#, HTML/CSS, JavaScript and MySQL 5.0.</div>
                 <img className='BGImg' src={imgintern} alt='Logo'/>
             </div>
             <div className='BGCard'>

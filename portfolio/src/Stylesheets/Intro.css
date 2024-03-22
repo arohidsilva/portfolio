@@ -83,11 +83,20 @@
 }
 
 @media screen and (max-width:1050px) {
+    #intro{
+        padding: 0 5rem;
+    }
     .INIntro{
-        font-size: 1.7rem;
+        font-size: 2.3rem;
     }
     .INName{
-        font-size: 2rem;
+        font-size: 2.7rem;
+    }
+    .INHello{
+        font-size: 1.5rem;
+    }
+    .INPara{
+        font-size: 1rem;
     }
 }
 
@@ -155,6 +164,23 @@
         padding: 0 2rem !important;
     }
 }
+
+@media screen and (max-width:372px){
+    .INIntro{
+        font-size: 1.4rem;
+    }
+    .INName{
+        font-size: 1.6rem;
+    }
+    .INHello{
+        font-size: 1rem;
+    }
+    .INPara{
+        font-size: 0.8rem;
+    }
+}
+
+
 
 .typewritercss{
     background-color: rgba(41, 41, 41, 0.65);
