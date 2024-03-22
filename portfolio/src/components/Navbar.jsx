@@ -4,7 +4,7 @@ import '../Stylesheets/Navbar.css';
 import { BiSolidMessage } from "react-icons/bi";
 import {Link} from 'react-router-dom';
 // import {Link} from 'react-scroll';
-import Img from '../assets/Logo2.png';
+import Img from '../assets/Logo3.png';
 import { TiThMenu } from "react-icons/ti";
 
 function Navbar() {
