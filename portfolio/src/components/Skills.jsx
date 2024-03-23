@@ -12,6 +12,7 @@ import ImgSql from '../assets/SQL.png';
 import ImgBootstrap from '../assets/Bootstrap5.jpg';
 import ImgGithub from '../assets/Github.png';
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import {Link} from 'react-router-dom';
 
 
 function Skills() {
@@ -91,16 +92,16 @@ function Skills() {
             </div>
         </div>
         <div className='SKLinks row container'>
-            <a href='/projects/' className='col-12 col-md-6 '>
+            <Link to='/projects/' className='col-12 col-md-6 '>
                 <div className='SKLink'>
                     Projects <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
-            </a>
-            <a href='/certifications/' className='col-12 col-md-6'>
+            </Link>
+            <Link to='/certifications/' className='col-12 col-md-6'>
                 <div className='SKLink'>
                     Certifications <FaExternalLinkSquareAlt className='SKLinkLogo'/>
                 </div>
-            </a>
+            </Link>
         </div>
     </section>
   )
