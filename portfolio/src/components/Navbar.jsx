@@ -15,18 +15,18 @@ function Navbar() {
         <img className='NVLogo' src={Img} alt='Logo'/>
         </Link>
         <div className='NVMenu'>
-            <a href='/' className='NVMenuItem'>Home</a>
-            <a href='/projects/' className='NVMenuItem'>Projects</a>
-            <a href='/certifications/' className='NVMenuItem'>Certifications</a>
+            <Link to='/' className='NVMenuItem'>Home</Link>
+            <Link to='/projects/' className='NVMenuItem'>Projects</Link>
+            <Link to='/certifications/' className='NVMenuItem'>Certifications</Link>
             <a href='https://github.com/arohidsilva' className='NVMenuItem' target="_blank">GitHub</a>
         </div>
         <TiThMenu className='NVBurger' onClick={()=>setMenu(!menu)}/>
         {menu?
         <>
           <section className='NVAltMenu'>
-            <a href='/' className='NVAltItem'>Home</a>
-            <a href='/projects/' className='NVAltItem'>Projects</a>
-            <a href='/certifications/' className='NVAltItem'>Certifications</a>
+            <Link to='/' className='NVAltItem'>Home</Link>
+            <Link to='/projects/' className='NVAltItem'>Projects</Link>
+            <Link to='/certifications/' className='NVAltItem'>Certifications</Link>
             <a href='https://github.com/arohidsilva' className='NVAltItem' target="_blank">GitHub</a>
           </section>
         </>:
