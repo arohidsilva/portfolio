@@ -17,6 +17,8 @@ import ImgCopilot from "../assets/Copilot.png";
 import ImgAEM from "../assets/AEMWCM.png";
 import ImgPostman from "../assets/Postman.png";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
+import {Link} from 'react-router-dom';
+
 
 function Skills() {
   return (
