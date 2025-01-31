@@ -2,12 +2,13 @@
 import React from 'react';
 import '../Stylesheets/Certifications.css';
 import imggc from '../assets/GC.png';
-import imgcc from '../assets/CC.png';
+import imgli from '../assets/LinkedinColor.png';
 import imggl from '../assets/GL.png';
-import imgds from '../assets/DataScienceLogo.png';
-import imgpy from '../assets/PythonLogo.png';
+import imgud from '../assets/Udemy.png';
+import imgrr from '../assets/ReactwithRedux.png';
+import imgmern from '../assets/Mern.png';
 import imgtab from '../assets/Tableau.png';
-import imgr from '../assets/RLogo.png';
+import imgcopilot from '../assets/Copilot.png';
 import imgsql from '../assets/SQLLogo.png';
 import imgcloud from '../assets/CloudLogo.png';
 import Navbar from './Navbar';
@@ -28,28 +29,28 @@ function Certfications() {
                 <img className='CRTechLogo' src={imgcloud} alt='Logo'/>   
             </div>
             <div className='CRItem'>
+                <h4>Modern React with Redux</h4>
+                <div className='CRSponser'>
+                    <img className='CRImg' src={imgud} alt='Certficate'/>
+                    <p>Udemy</p>
+                </div> 
+                <img className='CRTechLogo' src={imgrr} alt='Logo'/>   
+            </div>
+            <div className='CRItem'>
+                <h4>Full Stack Web Development with MERN Stack & GenAI</h4>
+                <div className='CRSponser'>
+                    <img className='CRImg' src={imgud} alt='Certficate'/>
+                    <p>Udemy</p>
+                </div> 
+                <img className='CRTechLogo' src={imgmern} alt='Logo'/>
+            </div>
+            <div className='CRItem'>
                 <h4>Data Visualization using Tableau</h4>
                 <div className='CRSponser'>
                     <img className='CRImg' src={imggl} alt='Certficate'/>
                     <p>Great Learning</p>
                 </div> 
                 <img className='CRTechLogo' src={imgtab} alt='Logo'/>   
-            </div>
-            <div className='CRItem'>
-                <h4>Python 101 for Data Science</h4>
-                <div className='CRSponser'>
-                    <img className='CRImg' src={imgcc} alt='Certficate'/>
-                    <p>Cognitive Class</p>
-                </div> 
-                <img className='CRTechLogo' src={imgds} alt='Logo'/>   
-            </div>
-            <div className='CRItem'>
-                <h4>Prediction Project using Python</h4>
-                <div className='CRSponser'>
-                    <img className='CRImg' src={imggl} alt='Certficate'/>
-                    <p>Great Learning</p>
-                </div> 
-                <img className='CRTechLogo' src={imgpy} alt='Logo'/>
             </div>
             <div className='CRItem'>
                 <h4>Analytics with SQL and Python</h4>
@@ -60,12 +61,12 @@ function Certfications() {
                 <img className='CRTechLogo' src={imgsql} alt='Logo'/> 
             </div>
             <div className='CRItem'>
-                <h4>R 101</h4>
+                <h4>Practical GitHub Copilot</h4>
                 <div className='CRSponser'>
-                    <img className='CRImg' src={imgcc} alt='Certficate'/>
-                    <p>Cognitive Class</p>
+                    <img className='CRImg' src={imgli} alt='Certficate'/>
+                    <p>Linkedin</p>
                 </div> 
-                <img className='CRTechLogo' src={imgr} alt='Logo'/> 
+                <img className='CRTechLogo' src={imgcopilot} alt='Logo'/> 
             </div>
 
         </div>

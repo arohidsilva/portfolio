@@ -62,18 +62,19 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: rgb(40,40,40);
+    background-color: rgb(30,30,30);
     border-bottom-left-radius: 0.5rem;
     top: 4rem;
     right: 0;
     z-index: 2;
     height: fit-content;
+    width: 12rem;
 }
 
 .NVAltItem{
-    margin: 0.25rem;
-    padding: 0.5rem;
-    background-color: rgb(30,30,30);
+    margin: 0.25rem 0.5rem;
+    padding: 0.75rem;
+    background-color: rgb(50,50,50);
     text-decoration: none;
     border-radius: 0.5rem;
     color: white;
