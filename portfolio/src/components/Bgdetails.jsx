@@ -41,7 +41,7 @@ function Bgdetails() {
         <div className="BGCard">
           <div className="BGHeaders">Internship</div>
           <div className="BGHeader">Tata Consultancy Services</div>
-          <div className="BGYear">March 2022 - June 2022</div>
+          <div className="BGYear">March 2022 - July 2022</div>
           <div className="BGSubtext">
             {" "}
             Worked with various AWS services like S3 Bucket, Rekognition,
@@ -62,7 +62,7 @@ function Bgdetails() {
           <div className="BGYear">August 2022 - Present</div>
           <div className="BGSubtext fw-bolder pb-2">
             {" "}
-            Assistant System Engineer
+            System Engineer - Frontend Developer
           </div>
           <div className="BGSubtext">
             Maintained web application user interfaces with ReactJS and Redux

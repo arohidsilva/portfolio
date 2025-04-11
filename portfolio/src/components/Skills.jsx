@@ -16,6 +16,7 @@ import ImgGithub from "../assets/Github.png";
 import ImgCopilot from "../assets/Copilot.png";
 import ImgAEM from "../assets/AEMWCM.png";
 import ImgPostman from "../assets/Postman.png";
+import ImgDocker from "../assets/Docker.png";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import {Link} from 'react-router-dom';
 
@@ -80,6 +81,12 @@ function Skills() {
               <img className="SKImg" src={ImgSql} alt="skilllogo" />
               <div className="SKText">
                 <span>SQL</span>
+              </div>
+            </div>
+            <div className="SKBar">
+              <img className="SKImg" src={ImgDocker} alt="skilllogo" />
+              <div className="SKText">
+                <span>Docker</span>
               </div>
             </div>
           </div>
