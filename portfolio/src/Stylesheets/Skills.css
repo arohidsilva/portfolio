@@ -56,7 +56,6 @@
 }
 
 .SKImg{
-    /* object-fit: cover; */
     height: 2rem;
     width: 2rem;
     margin: 0.9rem;
@@ -81,7 +80,6 @@
     font-size: larger;
     font-weight: 500;
     margin: 0.5rem;
-    /* w?idth:19rem; */
 }
 
 .SKLinkLogo{
