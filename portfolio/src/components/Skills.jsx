@@ -134,12 +134,12 @@ function Skills() {
         </div>
       </div>
       <div className="SKLinks row container">
-        <a href="/projects/" className="col-12 col-md-6 ">
+        <a href="/portfolio/projects/" className="col-12 col-md-6 ">
           <div className="SKLink">
             Projects <FaExternalLinkSquareAlt className="SKLinkLogo" />
           </div>
         </a>
-        <a href="/certifications/" className="col-12 col-md-6">
+        <a href="/portfolio/certifications/" className="col-12 col-md-6">
           <div className="SKLink">
             Certifications <FaExternalLinkSquareAlt className="SKLinkLogo" />
           </div>

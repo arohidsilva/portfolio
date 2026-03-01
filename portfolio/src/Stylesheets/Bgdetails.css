@@ -39,6 +39,63 @@
   position: relative;
 }
 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: rgba(0,0,0,1) !important;
+  color: #eee;
+  padding: 30px;
+  border-radius: 20px !important;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: hidden;
+  position: relative;
+  box-shadow: 0 0 15px #ffa500;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: #ffa500;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #ffa500;
+}
+
+.modal-content h2, .modal-content h3 {
+  margin: 0 0 10px;
+}
+
+.modal-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #ffaa00 #222;
+}
+
 .BGHeaders{
     font-size: 2rem;
     font-weight: 500;
@@ -52,14 +109,27 @@
 }
 
 .BGSubtext{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
+}
+
+.BGInfo {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 3px;
+    background-color: #ffa500;
+    color: black !important;
+    height: 17px;
+    width: 37px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    z-index: 100;
 }
 
 .BGYear{
     font-size: 0.9rem;
     font-weight: 400;
-    margin-bottom: 0.8rem;
 }
 
 .BGImg{
@@ -75,4 +145,28 @@
     .BGTitle{
         font-size: 2.2rem;
     }
+}
+
+@media (max-width: 768px) {
+
+  .modal-overlay {
+    align-items: flex-end;   /* Push modal to bottom */
+    padding: 0;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+
+    border-radius: 20px 20px 0 0 !important;  /* Rounded top only */
+    padding: 20px;
+
+    animation: slideUp 2s ease-out;
+  }
+
+  .modal-content ul {
+    max-height: 550px;
+  }
+
 }

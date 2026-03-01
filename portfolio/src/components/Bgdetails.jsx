@@ -1,11 +1,23 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import "../Stylesheets/Bgdetails.css";
 import imgedu from "../assets/EduLogo.png";
 import imgintern from "../assets/InternLogo.png";
 import imgexp from "../assets/ExpLogo.png";
+import experianceData from "../Mockdata/experiance.json";
 
 function Bgdetails() {
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState([]);
+
+  // Function to open modal
+  const openModal = (key) => {
+    setShowModal(true);
+    setModalContent(key);
+  };
+
+  // Function to close modal
+  const closeModal = () => setShowModal(false);
   return (
     <section id="bgdetails">
       <span className="BGTitle">Background</span>
@@ -20,22 +32,6 @@ function Bgdetails() {
           <div className="BGYear">2017-2020</div>
           <div className="BGSubtext">St. Agnes College, Mangalore</div>
           <div className="BGSubtext fw-bolder">CGPA: 8.5</div>
-          {/* <div className='BGHeader'>
-                    Pre-University College
-                    <span className='BGSubtext'>
-                        2015-2017
-                    </span>
-                </div>
-                <div className='BGSubtext'>St. Agnes College, Mangalore</div>
-                <div className='BGSubtext fw-bolder'>Percentage: 83%</div>
-                <div className='BGHeader'>
-                    SSLC
-                    <span className='BGSubtext'>
-                        2014-2015
-                    </span>
-                </div>
-                <div className='BGSubtext'>Little Flower High School, Siddapur</div>
-                <div className='BGSubtext fw-bolder'>Percentage: 90.08%</div> */}
           <img className="BGImg" src={imgedu} alt="Logo" />
         </div>
         <div className="BGCard">
@@ -58,25 +54,49 @@ function Bgdetails() {
         </div>
         <div className="BGCard">
           <div className="BGHeaders">Experience</div>
-          <div className="BGHeader">Tata Consultancy Services</div>
-          <div className="BGYear">August 2022 - Present</div>
-          <div className="BGSubtext fw-bolder pb-2">
-            {" "}
-            System Engineer - Frontend Developer
-          </div>
-          <div className="BGSubtext">
-            Maintained web application user interfaces with ReactJS and Redux
-            utilizing modular, scalable, and efficient code in JavaScript, and
-            SCSS by implementing responsive design techniques to ensure
-            applications are usable on various devices.
-            <br />
-            Provided defect support to improve performance and user experience.
-            <br />
-            Worked on Sonar test coverage utilizing Jest and other frameworks.
-          </div>
+          {
+            Object.keys(experianceData).map((key, index) => {
+              const item = experianceData[key];
+              return (
+                <div key={index}>
+                  <div className="BGHeader">{item.title}</div>
+                  <div className="BGYear">{item.duration}</div>
+                  <div className="d-flex">
+                    <div className="BGSubtext fw-bolder pb-2">{item.position}</div>
+                    <div className="BGInfo" onClick={() => openModal(key)}>
+                      More
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+          }
           <img className="BGImg" src={imgexp} alt="Logo" />
         </div>
       </div>
+
+      {/* Modal Popup */}
+      {(showModal && experianceData[modalContent]) && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={closeModal}>
+              &times;
+            </button>
+            <div className="BGHeader">{experianceData[modalContent].title}</div>
+            <div className="BGYear">{experianceData[modalContent].duration}</div>
+            <div className="BGSubtext fw-bolder pb-2">{experianceData[modalContent].position}</div>
+            <div className="modal-list-container">
+              <ul>
+                {
+                  experianceData[modalContent].responsibilities.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

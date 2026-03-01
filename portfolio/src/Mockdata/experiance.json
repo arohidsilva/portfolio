@@ -1,0 +1,34 @@
+{   
+    "niveus": {
+        "title": "Niveus Solutions",
+        "position": "Cloud Engineer - Fullstack",
+        "duration": "November 2025 - Present",
+        "responsibilities": [
+            "Developed and deployed scalable backend services using Node.js on Google Cloud Platform (GCP).",
+            "Designed and managed RESTful APIs, implementing secure authentication (JWT/OAuth) and optimizing response times.",
+            "Implemented cloud-native solutions using Google Cloud Run / Google App Engine for containerized and serverless deployments.",
+            "Maintained MySQL databases hosted on Cloud SQL, performing query optimization, indexing, and schema design to improve performance.",
+            "Monitored application logs and performance metrics using Cloud Monitoring, reducing production issues and improving uptime.",
+            "Containerized applications using Docker, creating efficient images and managing environment configurations.",
+            "Deployed and managed containerized workloads on Google Kubernetes Engine (GKE), handling pod deployments, services, and auto-scaling configurations."
+        ]
+    },
+    "tcs": {
+        "title": "Tata Consultancy Services",
+        "position": "Fullstack Developer",
+        "duration": "August 2022 - October 2025",
+        "responsibilities": [
+            "Developed and maintained modern, high-performance user interfaces and backend using ReactJS, NodeJS, Redux, JavaScript, and SCSS with a focus on modular, scalable code architecture.",
+            "Created react components to dynamically render UI objects based on backend response replacing conventional methods to improve performance and code reusability",
+            "Worked on designing as well as implementation of submodules to add new flows in the application.",
+            "Implemented responsive design techniques to ensure applications are reusable on various devices. ",
+            "Designed, built, and integrated robust APIs with UIs to deliver seamless end-to-end features and functionality.",
+            "Developed RESTful APIs using Node.js and Express to manage server-side logic and integrate Fineos data—widely used in life, accident, and health insurance—for seamless frontend–backend communication.",
+            "Worked closely with cross-functional teams in Agile processes, managing tasks and collaboration efficiently using Azure DevOps and implemented CI/CD pipelines to automate build and deployment in Azure DevOps.",
+            "Provided defect support to identify and fix critical production issues and bugs, improving user experience.",
+            "Ensured all application features comply with ADA standards and are fully accessible.",
+            "Utilized testing frameworks and tools to automate testing processes and optimized Sonar test coverage to 85% utilizing Jest and other frameworks."
+
+        ]
+    }
+}
