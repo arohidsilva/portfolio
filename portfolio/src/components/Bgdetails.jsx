@@ -5,10 +5,17 @@ import imgedu from "../assets/EduLogo.png";
 import imgintern from "../assets/InternLogo.png";
 import imgexp from "../assets/ExpLogo.png";
 import experianceData from "../Mockdata/experiance.json";
+import ReactMarkdown from "react-markdown";
 
 function Bgdetails() {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState([]);
+
+  const components = {
+  strong: ({ node, ...props }) => (
+    <strong style={{ color: "#ffd587f5" }} {...props} />
+  ),
+};
 
   // Function to open modal
   const openModal = (key) => {
@@ -86,13 +93,7 @@ function Bgdetails() {
             <div className="BGYear">{experianceData[modalContent].duration}</div>
             <div className="BGSubtext fw-bolder pb-2">{experianceData[modalContent].position}</div>
             <div className="modal-list-container">
-              <ul>
-                {
-                  experianceData[modalContent].responsibilities.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))
-                }
-              </ul>
+                <ReactMarkdown components={components}>{experianceData[modalContent].responsibilities}</ReactMarkdown>
             </div>
           </div>
         </div>

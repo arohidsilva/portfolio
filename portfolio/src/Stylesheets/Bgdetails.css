@@ -79,23 +79,6 @@
   color: #ffa500;
 }
 
-.modal-content h2, .modal-content h3 {
-  margin: 0 0 10px;
-}
-
-.modal-content ul {
-  padding-left: 20px;
-  list-style-type: disc;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  max-height: 300px;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: #ffaa00 #222;
-}
-
 .BGHeaders{
     font-size: 2rem;
     font-weight: 500;
@@ -150,23 +133,10 @@
 @media (max-width: 768px) {
 
   .modal-overlay {
-    align-items: flex-end;   /* Push modal to bottom */
-    padding: 0;
+    padding: 1.5rem;
   }
-
-  .modal-content {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-
-    border-radius: 20px 20px 0 0 !important;  /* Rounded top only */
-    padding: 20px;
-
-    animation: slideUp 2s ease-out;
-  }
-
-  .modal-content ul {
-    max-height: 550px;
+  .modal-list-container {
+    font-size: small;
   }
 
 }
