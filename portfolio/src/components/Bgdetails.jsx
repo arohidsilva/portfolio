@@ -48,7 +48,7 @@ function Bgdetails() {
           <div className="BGSubtext">
             {" "}
             Worked with various AWS services like S3 Bucket, Rekognition,
-            DynamoDB, Lambda and RDS
+            DynamoDB, Lambda and RDS.
           </div>
           <div className="BGHeader">Accolade Tech Solutions</div>
           <div className="BGYear">November 2019 - March 2020</div>
